@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PracticumAssessment1</string>
+    <string name="title_activity_details_page1">DetailsPage1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
