@@ -12,7 +12,7 @@ class DetailsPage : AppCompatActivity() {
     val min = intArrayOf(12,15,13,16,12,10,10)
     val max = intArrayOf(25,29,31,27,20,18,16)
     val weatherDet = arrayOf("Sunny","Sunny","Stormy","Sunny","Raining","Raining","Cold")
-    
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details_page)
@@ -38,6 +38,7 @@ class DetailsPage : AppCompatActivity() {
                     "${day[5]} has a minimum temperature of ${min[5]} and maximum temp of ${max[5]} which is ${weatherDet[5]}\n" +
                     "${day[0]} has a minimum temperature of ${min[6]} and maximum temp of ${max[6]} which is ${weatherDet[6]}\n"
         }
+
 
     }
 }
